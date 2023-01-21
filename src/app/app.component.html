@@ -1,6 +1,13 @@
-<h1>Liste des étudiants</h1>
+<h1>Fiches étudiantes</h1>
 <p>Cliquez sur l'étudiant pour avoir les détails</p>
-<ul>
-  <li (click)="select(s)" *ngFor="let s of students">{{s.cp + " | " + s.fname +" | " + s.lname}}</li>
-</ul>
-<app-details [selection] = membre_selected></app-details>
+<div class="container">
+    <div class="liste_etudiants">
+      <h2>Liste des étudiants</h2>
+      <ul>
+      <li (click)="select(s)" *ngFor="let s of students">{{s.cp + " | " + s.fname + " | " + s.lname}}</li>
+    </ul>
+  </div>
+  <div class="details">
+    <app-details [selection]=membre_selected></app-details>
+  </div>
+</div>

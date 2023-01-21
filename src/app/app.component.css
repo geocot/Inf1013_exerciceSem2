@@ -7,6 +7,11 @@ ul{
   padding: 0;
 }
 
+h2{
+  font-size: 18px;
+  margin: 20px 10px;
+}
+
 li{
   text-decoration: none;
   list-style: none;
@@ -14,12 +19,30 @@ li{
   padding: 10px;
   background-color: darkolivegreen;
   cursor: pointer;
-  width: 50%;
+  width: 90%;
   color:white;
+  font-size: 0.8em;
 }
 
 p{
   margin: 10px;
   font-size: 0.7em;
   font-style: italic;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+
+}
+
+.liste_etudiants{
+  flex: 1;
+}
+
+.details{
+  flex:1;
 }
