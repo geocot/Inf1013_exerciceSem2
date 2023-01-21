@@ -39,6 +39,23 @@ p{
   font-size: 0.8em;
 }
 
+.bas ul{
+  margin: 0 20px;
+  padding: 0;
+}
+
+.bas ul li{
+  font-size: 0.65em;
+  color: gray;
+}
 .container p span{
   color: gray;
+}
+
+.rouge{
+  color: red;
+}
+
+.vert{
+  color: green;
 }

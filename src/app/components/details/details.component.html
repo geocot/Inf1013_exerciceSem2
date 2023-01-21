@@ -7,6 +7,9 @@
   </div>
   <div class="bas">
     <p>Notes</p>
+    <ul>
+      <li *ngFor="let s of selection?.scores">{{s.name}}: {{s.value}}%</li>
+    </ul>
   </div>
 </div>
 
