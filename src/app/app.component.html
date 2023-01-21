@@ -1,4 +1,5 @@
 <h1>Liste des étudiants</h1>
+<p>Cliquez sur l'étudiant pour avoir les détails</p>
 <ul>
   <li (click)="select(s)" *ngFor="let s of students">{{s.cp + " | " + s.fname +" | " + s.lname}}</li>
 </ul>
