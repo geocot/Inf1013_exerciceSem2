@@ -8,7 +8,7 @@
   <div class="bas">
     <p>Notes</p>
     <ul>
-      <li *ngFor="let s of selection?.scores">{{s.name}}: {{s.value}}%</li>
+      <li [ngClass]="scoreGreater90(score.value)?'vert':'rouge'" *ngFor="let score of selection?.scores">{{score.name}}: {{score.value}}%</li>
     </ul>
   </div>
 </div>

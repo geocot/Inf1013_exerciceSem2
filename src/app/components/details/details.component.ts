@@ -13,6 +13,13 @@ export class DetailsComponent implements OnInit{
 
   }
 
+  scoreGreater90(score:number): boolean { //Pour le ngClass
+    let condition: boolean = false
+    if (score >=90){
+      condition = true;
+    }
+    return condition
+  }
 
   ngOnInit():void {
 
