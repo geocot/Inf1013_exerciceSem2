@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { DetailsComponent } from './components/details/details.component';
+import { ClassNotePipe } from './class-note.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DetailsComponent
+    DetailsComponent,
+    ClassNotePipe
   ],
   imports: [
     BrowserModule
